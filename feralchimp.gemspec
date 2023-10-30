@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency("rspec")
   spec.add_development_dependency("simplecov")
   spec.add_runtime_dependency("json", "~> 1.8")
-  spec.add_runtime_dependency("faraday", "~> 0.8.0")
+  spec.add_runtime_dependency("faraday", "~> 1.3")
   spec.add_development_dependency("luna-rspec-formatters")
   spec.homepage = "http://github.com/envygeeks/feralchimp/"
   spec.files = %W(Rakefile Gemfile Readme.md License) + Dir["lib/**/*"]
